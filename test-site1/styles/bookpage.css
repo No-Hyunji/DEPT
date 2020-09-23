@@ -1,0 +1,85 @@
+header span {
+  float: left;
+}
+header button {
+  float: right;
+  color: white;
+  background-color: #4a148c;
+  border-radius: 24px;
+  border: thin;
+  padding: 5px;
+}
+header button:hover {
+  cursor: pointer;
+}
+header {
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+  width: 900px;
+  height: 30px;
+}
+#container {
+  width: 900px;
+  height: 100%;
+}
+.card_line {
+  width: 900px;
+  height: 200px;
+}
+.card_left {
+  width: 445px;
+  height: 200px;
+  float: left;
+}
+.card_right {
+  width: 445px;
+  height: 200px;
+  float: right;
+}
+.thumbnail {
+  width: 178px;
+  height: 178px;
+  background-color: green;
+  float: left;
+  border-radius: 24px;
+  margin-top: 10px;
+}
+.card_info {
+  width: 267px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+}
+
+.paging {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0;
+  color: 4a148c;
+}
+.paging a {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  font-size: 12px;
+}
+.paging a:first-child {
+  margin-left: 0;
+}
+
+.paging a.bt {
+  border: 1px solid #eee;
+  background: #eee;
+}
+
+.paging a.num {
+  border: 1px solid #4a148c;
+  font-weight: 600;
+  color: #4a148c;
+}
+
+.paging a.num.on {
+  background: #4a148c;
+  color: #fff;
+}
