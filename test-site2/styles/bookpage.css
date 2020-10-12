@@ -1,5 +1,6 @@
 header span {
   float: left;
+  font-size: larger;
 }
 header button {
   float: right;
@@ -34,12 +35,12 @@ header {
 .card_right {
   width: 445px;
   height: 200px;
-  float: right;
+  float: left;
 }
 .thumbnail {
   width: 178px;
   height: 178px;
-  background-color: green;
+
   float: left;
   border-radius: 24px;
   margin-top: 10px;
@@ -47,7 +48,7 @@ header {
 .card_info {
   width: 267px;
   height: 200px;
-  background-color: blue;
+  margin-top: 10px;
   float: left;
 }
 
@@ -60,7 +61,7 @@ header {
   display: inline-block;
   margin-left: 10px;
   padding: 5px 10px;
-  border-radius: 100px;
+  border-radius: 24px;
   font-size: 12px;
 }
 .paging a:first-child {
@@ -86,4 +87,12 @@ img {
   width: 178px;
   height: 178px;
   border-radius: 24px;
+}
+.title,
+.author,
+.price,
+.cover,
+.bookpaper,
+.deal {
+  color: pink;
 }
