@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Board Contents</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../test-site5-detail/styles/boardcontents_style.css" />
+  <script src="https://kit.fontawesome.com/c2f525edad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="bbs_area">
+    <h2 onClick="location.href=''"><i class="fas fa-pen-nib"></i>언어·문학</h2>
+    <div class="bbs_title_area">
+      <div class="bbs_title">
+        <strong>반응형 웹 만들기 </strong>
+      </div>
+      <div class="bbs_info"> 
+        <div class="nickname">장이지</div>
+        <div class="comment_date">2020-08-01 | 08:01</div>
+        <div class="mem_func">
+          <div id="modify">수정</div>
+          <div id="delete" onClick="alert('삭제할까요?')">삭제</div>
+          <div id="scrap" onClick="alert('스크랩 되었습니다')">스크랩</div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="bbs_text_area">
+      (전략)
+      <br/><br/>
+      네 웃음에 나는 부레를 잃은 인어처럼 숨 막혀<br/>
+      이제 네가 누군지 알겠어
+      <br/><br/>
+      있잖아, 잘있어?
+      <br/><br/>
+      네가 쓰다 지운 울음 자국들이 오로라로 빛나는,
+      <br/><br/>
+      바보야, 여기는 잊혀진 별 명왕성이야
+    </div>
+    <div class="bbs_button_area">
+      <div class="noti_reco">
+        <div id="notify" onClick="alert('신고할까요?')"><i class="fas fa-exclamation-circle"></i>신고</div>
+        <div id="recommend"><i class="fas fa-heart"></i>추천 (83)</div>
+        <div id="back_to_list"><button onClick="location.href='../html/boardlist_page.html'">목록</button></div>
+      </div>
+    </div>
+    <hr />
+    <div class="bbs_comment_area">
+      <div class="input_area">
+        <input class="comment_input" placeholder="댓글을 입력하세요" />
+        <button id="submit">등록</button>
+      </div>
+      <ul>
+        <li>
+          <div class="profile_img"></div>
+          <div class="comment_post">
+            <div class="profile_info">
+              <div class="nickname">댓글</div>
+              <div class="comment_date">20-08-01</div>
+              <div class="reply_button">
+                <div id="modify">수정</div>
+                <div id="delete" onClick="alert('삭제할까요?')">삭제</div>
+              </div>
+            </div>
+            <div class="comment_text">테스트입니다</div>
+          </div>
+        </li>
+        <li>
+          <div class="profile_img"></div>
+          <div class="comment_post">
+            <div class="profile_info">
+              <div class="nickname">안녕하세요</div>
+              <div class="comment_date">20-10-05</div>
+              <div class="reply_button">
+                <div id="modify">수정</div>
+                <div id="delete" onClick="alert('삭제할까요?')">삭제</div>
+              </div>
+            </div>
+            <div class="comment_text">댓글입니다</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
