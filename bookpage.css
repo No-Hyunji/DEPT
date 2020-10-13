@@ -1,5 +1,6 @@
-header span {
+header h2 {
   float: left;
+  margin: 0;
 }
 header button {
   float: right;
@@ -8,6 +9,7 @@ header button {
   border-radius: 24px;
   border: thin;
   padding: 5px;
+  transition: 0.5s ease;
 }
 header button:hover {
   cursor: pointer;
@@ -34,12 +36,12 @@ header {
 .card_right {
   width: 445px;
   height: 200px;
-  float: right;
+  float: left;
 }
 .thumbnail {
   width: 178px;
   height: 178px;
-  background-color: green;
+
   float: left;
   border-radius: 24px;
   margin-top: 10px;
@@ -47,39 +49,45 @@ header {
 .card_info {
   width: 267px;
   height: 200px;
-  background-color: blue;
+  margin-top: 10px;
   float: left;
 }
 
 .paging {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
-  font-size: 0;
-  color: 4a148c;
+  text-decoration: none;
 }
+
 .paging a {
   display: inline-block;
-  margin-left: 10px;
   padding: 5px 10px;
-  border-radius: 100px;
-  font-size: 12px;
-}
-.paging a:first-child {
-  margin-left: 0;
+  text-decoration: none;
 }
 
-.paging a.bt {
-  border: 1px solid #eee;
-  background: #eee;
+.paging i {
+  color: #888;
 }
-
-.paging a.num {
-  border: 1px solid #4a148c;
-  font-weight: 600;
+img {
+  width: 178px;
+  height: 178px;
+  border-radius: 24px;
+}
+.title,
+.author,
+.price,
+.cover,
+.bookpaper,
+.deal {
   color: #4a148c;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.first_line {
+  padding-top: 10px;
+  font-style: italic;
 }
 
-.paging a.num.on {
-  background: #4a148c;
-  color: #fff;
+.thumbnail:hover {
+  cursor: pointer;
 }

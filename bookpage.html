@@ -2,19 +2,21 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="styles/bookpage.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/bookpage.css" />
     <title>Dept-책방</title>
+    <script src="https://kit.fontawesome.com/c2f525edad.js" crossorigin="anonymous"></script>
   </head>
 <body>
   <header>
-    <span><b>책방</b></span>
-    <button><b>책 판매하기</b></button>
+    <h2>책방</h2>
+    <button onclick="window.location.href='bookpage-form.html'"><b>책 판매하기</b></button>
   </header>
   <section id="container">
     <div class="card_line">
-      <article class="card_left">
+      <article class="card_left" id="card1" onclick="window.location.href='bookpage-contents.html'">
+        
         <div class="thumbnail">
-          <img src="../test-site2/images/book-1.jpg" width="100%" alt="책">
+          <img src="../images/book-1.jpg" width="100%" alt="책">
         </div>
         <div class="card_info">
           <table class="info_table">
@@ -51,9 +53,9 @@
          
         </div>
       </article>
-    <article class="card_right">
+    <article class="card_right" id="card2">
       <div class="thumbnail">
-        <img src="../test-site2/images/book-2.jpg" width="100%" alt="책">
+        <img src="../images/book-2.jpg" width="100%" alt="책">
         </div>
         <div class="card_info">
           <table class="info_table">
@@ -91,9 +93,9 @@
       <article>
     </div>
       <div class="card_line">
-      <article class="card_left">
+      <article class="card_left" id="card3">
         <div class="thumbnail">
-          <img src="../test-site2/images/book-3.jpg" width="100%" alt="책">
+          <img src="../images/book-3.jpg" width="100%" alt="책">
         </div>
         <div class="card_info">
           <table class="info_table">
@@ -129,9 +131,9 @@
           </table>
         </div>
       </article>
-    <article class="card_right">
+    <article class="card_right" id="card4">
       <div class="thumbnail">
-        <img src="../test-site2/images/book-4.jpg" width="100%" alt="책">
+        <img src="../images/book-4.jpg" width="100%" alt="책">
         </div>
         <div class="card_info">
           <table class="info_table">
@@ -169,9 +171,9 @@
       <article>
     </div>
       <div class="card_line">
-      <article class="card_left">
+      <article class="card_left" id="card5">
         <div class="thumbnail">
-          <img src="../test-site2/images/book-5.jpg" width="100%" alt="책">
+          <img src="../images/book-5.jpg" width="100%" alt="책">
         </div>
         <div class="card_info">
           <table class="info_table">
@@ -207,9 +209,9 @@
           </table>
         </div>
       </article>
-    <article class="card_right">
+    <article class="card_right" id="card6">
       <div class="thumbnail">
-        <img src="../test-site2/images/book-6.jpg" width="100%" alt="책">
+        <img src="../images/book-6.jpg" width="100%" alt="책">
         </div>
         <div class="card_info">
           <table class="info_table">
@@ -246,15 +248,16 @@
         </div>
       <article>
     </div>
-      <div class="paging">
-                <a href="#" class="bt">첫페이지</a>
-                <a href="#" class="bt">이전 페이지</a>
-                <a href="#" class="num on">1</a>
-                <a href="#" class="num">2</a>
-                <a href="#" class="num">3</a>
-                <a href="#" class="bt">다음 페이지</a>
-                <a href="#" class="bt">마지막 페이지</a>
-            </div>
+    <div class="paging">
+          <a href="#"><i class="fas fa-angle-left"></i></a>
+          <a href="#"><b>1</b></a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#"><i class="fas fa-angle-right"></i></a>
+    </div>
+
   </section>
         
 
